@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Projeto Pokémon Slider - MapaDev Week</title>
+
+    <link rel="shortcut icon" href="" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2? family= Poppins:ital,wght@0,700;1,400 & display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="shortcut icon" href="src/imagens/pokebola.png" type="image/x-icon" />
+    <link rel="stylesheet" href="src/css/estilos.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img src="src/imagens/pokebola.png" alt="Pokébola" class="pokebola" />
+        <h1 class="titulo">MapaDev Week</h1>
+    </header>
+
+    <main class="pokemon-slider">
+        <button class="btn-seta btn-voltar" id="btn-voltar">
+            <img src=" src/imagens/seta.png" alt="seta voltar">
+        </button>
+
+        <ul class="lista-pokemons">
+            <li class="cartao selecionado fundo-1">
+                <div class="informacoes">
+                    <h2 class="nome">Pikachu</h2>
+                    <p class="vida">HP 300</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/pikachu.png" alt="Pikachu" class="imagem-pokemon">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">日本語では、「ピカ」は電気を象徴するオノマトペであり、「チュウ」はネズミの鳴き声を意味します。 つまり、ピカチュウの名前は、文字通り、電動マウスです。</p>
+                </div>
+
+            </li>
+            <li class="cartao fundo-2">
+                <div class="informacoes">
+                    <h2 class="nome">Charizard</h2>
+                    <p class="vida">HP 800</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/charizard.png" alt="Charizard" class="imagem-pokemon">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">日本ではリザードン (リザードン リザドン) として知られるリザードンは、任天堂とゲーム フリークが所有するポケモン フランチャイズの架空の生き物です。
+                        杉森建によって作成されたリザードンは、ポケットモンスター 赤と青のゲームとその後の続編に初めて登場しました。</p>
+                </div>
+
+            </li>
+
+            </li>
+            <li class="cartao fundo-3">
+                <div class="informacoes">
+                    <h2 class="nome">Mewtwo</h2>
+                    <p class="vida">HP 1200</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/mewtwo.png" alt="Mewtwo" class="imagem-pokemon">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">「2 番目のミュウ」を意味するその名前は、元のミュウの遺伝子操作された複製としての存在に由来します。
+                        米国で最初のポケモン映画が公開されるまで、ミュウツーは日本の情報源で「クローン」と呼ばれることはめったにありませんでした.</p>
+                </div>
+
+            </li>
+        </ul>
+
+        <button class="btn-seta" id="btn-avancar">
+            <img src="src/imagens/seta.png" alt="seta avançar">
+        </button>
+    </main>
+
+    <script src="src/js/index.js"></script>
+</body>
+
+</html>
